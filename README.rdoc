@@ -5,24 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.2.4
 
-* System dependencies
+* System dependencies - Rails 4.1 and PostgreSQL gems
 
-* Configuration
+* Configuration - Clone the repository and run bundle install. Set up database.
+                    Launch Rails server and browse to http://localhost:3000/subjects
 
-* Database creation
+* Database creation - Install and configure postgreSQL
 
-* Database initialization
+* Database initialization - Create a database.yml file and initialize it with
+ database name, username and password.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
