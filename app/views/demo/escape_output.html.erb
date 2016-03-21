@@ -1,0 +1,23 @@
+<%# es = "<script>alert('Gotcha!');</script>".html_safe %>
+<%# gs = "<strong>Welcome to my site!</strong>".html_safe %>
+<% es = "<script>alert('Gotcha!');</script>" %>
+<% gs = "<strong>Welcome to my site!</strong>" %>
+
+<%# raw(es) %>
+<%# raw(gs) %>
+
+<%= es.html_safe? %><br />
+<%= gs.html_safe? %>
+<hr />
+<%
+  ss = '<strong>Please</strong> visit <a
+  href="http://example.com">us</a>.' %>
+
+<%= strip_links(ss) %><br />
+<%= strip_tags(ss) %><br />
+
+<hr />
+
+<%= sanitize(es) %><br />
+<%= sanitize(ss, :tags => []) %><br />
+<%= sanitize(ss, :tags => ['strong', 'em', 'a']) %><br />
