@@ -17,3 +17,5 @@
 
 # Ignore database config file
 /config/database.yml
+
+.idea/

@@ -1,16 +1,8 @@
 SimpleCms::Application.routes.draw do
 
-  get 'sections/index'
-
-  get 'sections/show'
-
-  get 'sections/new'
-
-  get 'sections/edit'
-
-  get 'sections/delete'
-
   root 'demo#index'
+
+  get 'admin', :to => "access#index"
 
   # get demo/index
   match ':controller(/:action(/:id))',
