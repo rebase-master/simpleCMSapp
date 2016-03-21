@@ -9,12 +9,15 @@ Things you may want to cover:
 
 * System dependencies - Rails 4.1 and PostgreSQL gems
 
-* Configuration - Clone the repository and run bundle install. Set up database.
-                    Launch Rails server and browse to http://localhost:3000/subjects
-
 * Database creation - Install and configure postgreSQL
 
-* Database initialization - Create a database.yml file and initialize it with
- database name, username and password.
+* Database initialization - Create a database.yml file and initialize it with database name, username and password.
+
+* Configuration
+    Clone the repository and run bundle install.
+    Set up database.
+    Run migrations.
+    Launch Rails server and browse to http://localhost:3000/subjects
+
 
 <tt>rake doc:app</tt>.
